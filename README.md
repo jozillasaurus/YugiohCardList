@@ -1,9 +1,9 @@
-# YugiohCardList
+
 # Project Overview
 
 ## Project Name
 
-The name of your project.
+Yugioh Card List
 
 ## Project Description
 
