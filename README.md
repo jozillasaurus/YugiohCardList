@@ -53,7 +53,7 @@ Use this section to describe your final project and perhaps any links to relevan
                     "coolstuffinc_price": "0.49"
                 }
             ]
-        ```
+ ```
 ## Wireframes
 
 link
