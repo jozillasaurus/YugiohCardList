@@ -11,12 +11,51 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
-
+[https://db.ygoprodeck.com/api/v7/cardinfo.php] 
+|           "id": 76794549,
+            "name": "Astrograph Sorcerer",
+            "type": "Pendulum Effect Monster",
+            "desc": "[ Pendulum Effect ]\r\nDuring your Main Phase: You can destroy this card, and if you do, take 1 \"Stargazer Magician\" from your hand or Deck, and either place it in your Pendulum Zone or Special Summon it. You can only use this effect of \"Astrograph Sorcerer\" once per turn.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf a card(s) you control is destroyed by battle or card effect: You can Special Summon this card from your hand, then you can choose 1 monster in the Graveyard, Extra Deck, or that is banished, and that was destroyed this turn, and add 1 monster with the same name from your Deck to your hand. You can banish this card you control, plus 4 monsters from your hand, field, and/or Graveyard (1 each with \"Pendulum Dragon\", \"Xyz Dragon\", \"Synchro Dragon\", and \"Fusion Dragon\" in their names); Special Summon 1 \"Supreme King Z-ARC\" from your Extra Deck. (This is treated as a Fusion Summon.)",
+            "atk": 2500,
+            "def": 2000,
+            "level": 7,
+            "race": "Spellcaster",
+            "attribute": "DARK",
+            "archetype": "Magician",
+            "scale": 1,
+            "card_sets": [
+                {
+                    "set_name": "Pendulum Evolution",
+                    "set_code": "PEVO-EN001",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.47"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Banned",
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 76794549,
+                    "image_url": "https://storage.googleapis.com/ygoprodeck.com/pics/76794549.jpg",
+                    "image_url_small": "https://storage.googleapis.com/ygoprodeck.com/pics_small/76794549.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.99",
+                    "tcgplayer_price": "0.87",
+                    "ebay_price": "1.19",
+                    "amazon_price": "1.27",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        |
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-
+link
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
