@@ -12,7 +12,8 @@ Use this section to describe your final project and perhaps any links to relevan
 ## API and Data Sample
 
 [https://db.ygoprodeck.com/api/v7/cardinfo.php] 
-|           "id": 76794549,
+```
+            "id": 76794549,
             "name": "Astrograph Sorcerer",
             "type": "Pendulum Effect Monster",
             "desc": "[ Pendulum Effect ]\r\nDuring your Main Phase: You can destroy this card, and if you do, take 1 \"Stargazer Magician\" from your hand or Deck, and either place it in your Pendulum Zone or Special Summon it. You can only use this effect of \"Astrograph Sorcerer\" once per turn.\r\n----------------------------------------\r\n[ Monster Effect ]\r\nIf a card(s) you control is destroyed by battle or card effect: You can Special Summon this card from your hand, then you can choose 1 monster in the Graveyard, Extra Deck, or that is banished, and that was destroyed this turn, and add 1 monster with the same name from your Deck to your hand. You can banish this card you control, plus 4 monsters from your hand, field, and/or Graveyard (1 each with \"Pendulum Dragon\", \"Xyz Dragon\", \"Synchro Dragon\", and \"Fusion Dragon\" in their names); Special Summon 1 \"Supreme King Z-ARC\" from your Extra Deck. (This is treated as a Fusion Summon.)",
@@ -52,7 +53,7 @@ Use this section to describe your final project and perhaps any links to relevan
                     "coolstuffinc_price": "0.49"
                 }
             ]
-        |
+        ```
 ## Wireframes
 
 link
