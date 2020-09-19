@@ -7,7 +7,7 @@ Yugioh Card List
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
 
 ## API and Data Sample
 
@@ -56,7 +56,8 @@ Use this section to describe your final project and perhaps any links to relevan
  ```
 ## Wireframes
 
-link
+[https://wireframe.cc/EH5Xk9]
+
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
