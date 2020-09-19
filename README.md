@@ -64,20 +64,20 @@ Yugioh Card List
  
 #### MVP 
 
--Built with HTML, CSS, and JavaScript.
--Styled using Flexbox or Grid.
--Find external api.
--Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
--Render data on page.
--Implement responsive design using media query/breakpoint (mobile).
--Deployed site to a hosting service like Github Pages.
--Make commits to GitHub every day.
--A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
--Allow user to choose favorites. 
+- Built with HTML, CSS, and JavaScript
+- Styled using Flexbox or Grid
+- Find external api
+- Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM
+- Render data on page
+- Implement responsive design using media query/breakpoint (mobile)
+- Deployed site to a hosting service like Github Pages
+- Make commits to GitHub every day
+- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i
+- Allow user to choose favorites
 
 #### PostMVP  
 
--When clicking on the card it gives you a larger version of the imgage that gives you a more readableresolutionto be able to read the description (some the the descriptions are essay length, that will throw off the flow of the cards organization when displayed on the screen).
+- When clicking on the card it gives you a larger version of the imgage that gives you a more readableresolutionto be able to read the description (some the the descriptions are essay length, that will throw off the flow of the cards organization when displayed on the screen).
 
 
 ## Project Schedule
