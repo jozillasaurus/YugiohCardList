@@ -97,7 +97,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+[https://wireframe.cc/e4nbjH]
 
 ## Timeframes
 
@@ -107,9 +107,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Total | H | 24hrs| TBDhrs | TBDhrs |
 
 ## Code Snippet
 
