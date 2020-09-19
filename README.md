@@ -72,7 +72,7 @@ Yugioh Card List
 - Implement responsive design using media query/breakpoint (mobile)
 - Deployed site to a hosting service like Github Pages
 - Make commits to GitHub every day
-- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i
+- A README.md file that contains project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i
 - Allow user to choose favorites
 
 #### PostMVP  
@@ -88,11 +88,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sept 23| MVP | Incomplete
-|Sept 24| Post MVP/Styling | Incomplete
+|Sept 18-21| Prepare READ.ME to presesnt to team leader/Get project idea approved | Incomplete
+|Sept 21| Start building the skeleton(HTML,JS)/ Test that my external API is connected and working | Incomplete
+|Sept 22| Making sure I have all the right pieces I want(buttons, extension, side menu, etc.) Connecting info from API to where I want it to go   | Incomplete
+|Sept 23| Using CSS (flexbox) to make sure cards do not overlap and are evenly spaced out in columns of 4 or 5 | Incomplete
+|Sept 24| Media Query and any final bugs that might show up | Incomplete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
