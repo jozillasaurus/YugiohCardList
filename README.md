@@ -61,21 +61,24 @@ Yugioh Card List
 [https://wireframe.cc/kj9kMU]
 
 ### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
+ 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
+-Built with HTML, CSS, and JavaScript.
+-Styled using Flexbox or Grid.
+- Find external api
+-Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+- Render data on page
+-Implement responsive design using media query/breakpoint (mobile).
+-Deployed site to a hosting service like Github Pages.
+-Make commits to GitHub every day.
+-A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 - Allow user to choose favorites 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+-When clicking on the card it gives you a larger of image that gives a more readable resolution to be able to read the descriptions (some of the descriptions are essay length, that will throw of the flow of the cards organization when displayed.)
+-
 
 ## Project Schedule
 
