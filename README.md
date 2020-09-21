@@ -79,7 +79,7 @@ Lets you go through all Yugioh cards and view their description, if they are lim
 #### PostMVP  
 
 - When clicking on the card it gives you a larger version of the imgage that gives you a more readableresolutionto be able to read the description (some the the descriptions are essay length, that will throw off the flow of the cards organization when displayed on the screen).
-
+- Deck builder
 
 ## Project Schedule
 
