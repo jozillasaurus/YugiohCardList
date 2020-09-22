@@ -31,13 +31,13 @@ const list = cards => {
     const cardContainer = document.createElement('div')
     cardContainer.className = 'card-container'
 
-    const name = document.createElement('h3')
-    name.innerHTML = `${card.name}`
-    cardContainer.appendChild(name)
+    // const name = document.createElement('h3')
+    // name.innerHTML = `${card.name}`
+    // cardContainer.appendChild(name)
 
-    const image = document.createElement('img')
-    image.src = `${card.card_image(image_url_small)}`
-    cardContainer.appendChild(image)
+    // const image = document.createElement('img')
+    // image.src = `${card.card_image.image_url}`
+    // cardContainer.appendChild(image)
 
     cardArray.appendChild(cardContainer)
   });
