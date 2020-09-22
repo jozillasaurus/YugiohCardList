@@ -105,8 +105,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
+| Project Approval | H | 3hrs| 2hrs 25min | 2hrs 25min |
+| HTML base, setting up the api to be able to retrieve data | H | 3hrs| 2hrs 10min | 2hrs 10min |
 | Adding Form | H | 3hrs| TBDhrs | TBDhrs |
 | Adding Form | H | 3hrs| TBDhrs | TBDhrs |
 | Adding Form | H | 3hrs| TBDhrs | TBDhrs |
