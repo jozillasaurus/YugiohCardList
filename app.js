@@ -38,17 +38,27 @@ const list = cards => {
     cardContainer.appendChild(name)
 
     const image = document.createElement('img')
-    image.src = `${card.card_images[0].image_url}`
+    image.src = `${card.card_images[0].image_url_small}`
     cardContainer.appendChild(image)
 
     cardArray.appendChild(cardContainer)
 
+    cardContainer.addEventListener('click', async () => {
+      document.getElementById('div').onclick = function changeContent() {
+        image.src = `${card.card_images[0].image_url}`
+      }
+    })
   });
 }
+
 
 function removeCards() {
   const oldCard = document.querySelector('.card-list')
   while (oldCard.lastChild) {
     oldCard.removeChild(oldCard.lastChild)
   }
+}
+
+function expandImg() {
+
 }
