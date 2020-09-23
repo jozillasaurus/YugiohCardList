@@ -11,8 +11,9 @@
 //   }
 // }
 // getInfo()
-
+// .forEach(element => console.log(element)) line 24
 // https://cors-anywhere.herokuapp.com/
+
 const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php'
 const input = document.querySelector('#blank')
 const button = document.querySelector('#search')
@@ -21,24 +22,33 @@ button.addEventListener('click', async () => {
   let userInput = input.value
   const response = await axios.get(`${url}?&fname=${userInput}`)
   // console.log(response.data.data.forEach(element => console.log(element)))
-  list(response.data.data.forEach(element => console.log(element)))
+  list(response.data.data)
 })
 
 const cardArray = document.querySelector('.card-list')
 
 const list = cards => {
+  removeCards()
   cards.forEach(card => {
     const cardContainer = document.createElement('div')
     cardContainer.className = 'card-container'
 
-    // const name = document.createElement('h3')
-    // name.innerHTML = `${card.name}`
-    // cardContainer.appendChild(name)
+    const name = document.createElement('h3')
+    name.innerHTML = `${card.name}`
+    cardContainer.appendChild(name)
 
-    // const image = document.createElement('img')
-    // image.src = `${card.card_image.image_url}`
-    // cardContainer.appendChild(image)
+    const image = document.createElement('img')
+    image.src = `${card.card_images[0].image_url}`
+    cardContainer.appendChild(image)
 
     cardArray.appendChild(cardContainer)
+
   });
+}
+
+function removeCards() {
+  const oldCard = document.querySelector('.card-list')
+  while (oldCard.lastChild) {
+    oldCard.removeChild(oldCard.lastChild)
+  }
 }
