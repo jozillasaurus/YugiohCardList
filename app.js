@@ -45,7 +45,7 @@ const list = cards => {
 
     cardContainer.addEventListener('click', async () => {
       document.getElementById('div').onclick = function changeContent() {
-        image.src = `${card.card_images[0].image_url}`
+        document.image.src = `${card.card_images[0].image_url}`
       }
     })
   });
