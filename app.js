@@ -78,7 +78,7 @@ function appendData(data) {
   data.forEach(card => {
     let cardList = document.querySelector('.card-list')
     let cardDataContainer = document.createElement('div')
-    let cardTitle = document.createElement('h2')
+    let cardTitle = document.createElement('h5')
     cardTitle.textContent = card.name
     cardDataContainer.append(cardTitle)
     let cardImage = document.createElement('img')
