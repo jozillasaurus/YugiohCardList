@@ -62,10 +62,14 @@ display: flex;
 flex-flow: wrap;
 justify-content: center;
 }
+
  img{
   display: flex;
   align-items: flex-end;
  }
 
-
+@media (min-width: 600px) {
+    
+  background-color: blue;
+}
 

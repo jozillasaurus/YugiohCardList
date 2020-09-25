@@ -74,18 +74,13 @@ Lets you go through all Yugioh cards and view their description, if they are lim
 - Deployed site to a hosting service like Github Pages
 - Make commits to GitHub every day
 - A README.md file that contains project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i
-- Allow user to choose favorites
+- When clicking on the card it gives you a larger version of the imgage that gives you a more readableresolutionto be able to read the description (some the the descriptions are essay length, that will throw off the flow of the cards organization when displayed on the screen).
 
 #### PostMVP  
-
-- When clicking on the card it gives you a larger version of the imgage that gives you a more readableresolutionto be able to read the description (some the the descriptions are essay length, that will throw off the flow of the cards organization when displayed on the screen).
+- Menu bar
 - Deck builder
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -107,23 +102,25 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | --- | :---: |  :---: | :---: | :---: |
 | Project Approval | H | 3hrs| 2hrs 25min | 2hrs 25min |
 | HTML base, setting up the api to be able to retrieve data | H | 3hrs| 2hrs 10min | 2hrs 10min |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Adding Form | H | 3hrs| TBDhrs | TBDhrs |
-| Total | H | 24hrs| TBDhrs | TBDhrs |
+| Being able to pull information from api by name and image | H | 3hrs| 3hrs 10min | 3hrs 10min|
+| Fixed cors issue/ Debugged:image not receiving | H | 3hrs| 2hrs 56min | 2hrs 56 |
+| worked on removing old child when making a new search/ Added click to enlarge pic function | H | 3hrs| 2hrs 10min | 2hrs 10min |
+| Debugging enlarging pic on click because there are two different imagges | H | 3hrs| 4hrs 12min | 4hrs 12min |
+| Last minute CSS adjustments | H | 3hrs| 2hrs | 2hrs |
+| Total | H | 21hrs| 19hrs 3min| 19hrs 3min |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+cardImage.addEventListener('click', () => {
+      if (cardImage.src != card.card_images[0].image_url) {
+        cardImage.src = card.card_images[0].image_url
+      } else {
+        cardImage.src = card.card_images[0].image_url_small
+      }
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes. 
+N/A
