@@ -7,7 +7,7 @@ Yugioh Card List
 
 ## Project Description
 
-Lets you go through all Yugioh cards and view their description, if they are limited or banned, and save your favorites for later purchase.
+Webpage that lets you go through all Yugioh cards and view their description, on click to expand feature, for when you don't want people touching your cards while playing.
 
 
 ## API and Data Sample
