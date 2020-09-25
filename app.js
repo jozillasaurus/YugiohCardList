@@ -1,3 +1,58 @@
+//api information
+
+//all card list https://db.ygoprodeck.com/api/v7/cardinfo.php//
+const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php'
+const searchBar = document.querySelector('form')
+searchBar.addEventListener('submit', getData)
+async function getData(e) {
+  e.preventDefault()
+  const userInput = document.querySelector('#blank').value
+  try {
+    const response = await axios.get(`${url}?&fname=${userInput}`)
+    let data = response.data.data
+    // console.log(data)
+    appendData(data)
+  } catch (error) {
+    console.log(`Error: ${error}`)
+  }
+}
+//where i create div, title name and img sections and append to my DOM
+
+function appendData(data) {
+  removeCards()
+  data.forEach(card => {
+    let cardList = document.querySelector('.card-list')
+    let cardDataContainer = document.createElement('div')
+    let cardTitle = document.createElement('h5')
+    cardTitle.textContent = card.name
+    cardDataContainer.append(cardTitle)
+    let cardImage = document.createElement('img')
+    cardImage.src = card.card_images[0].image_url_small
+    cardDataContainer.append(cardImage)
+    cardList.append(cardDataContainer)
+    //
+    cardImage.addEventListener('click', () => {
+      if (cardImage.src != card.card_images[0].image_url) {
+        cardImage.src = card.card_images[0].image_url
+      } else {
+        cardImage.src = card.card_images[0].image_url_small
+      }
+    })
+  });
+}
+
+function removeCards() {
+  const oldCard = document.querySelector('.card-list')
+  while (oldCard.lastChild) {
+    oldCard.removeChild(oldCard.lastChild)
+  }
+}
+
+
+
+
+
+
 //all card list https://db.ygoprodeck.com/api/v7/cardinfo.php//
 
 // const getInfo = async () => {
@@ -58,69 +113,69 @@
 
 
 //all card list https://db.ygoprodeck.com/api/v7/cardinfo.php//
-const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php'
-const searchBar = document.querySelector('form')
-searchBar.addEventListener('submit', getData)
-async function getData(e) {
-  e.preventDefault()
-  const userInput = document.querySelector('#blank').value
-  try {
-    const response = await axios.get(`${url}?&fname=${userInput}`)
-    let data = response.data.data
-    // console.log(data)
-    appendData(data)
-  } catch (error) {
-    console.log(`Error: ${error}`)
-  }
-}
-function appendData(data) {
-  removeCards()
-  data.forEach(card => {
-    let cardList = document.querySelector('.card-list')
-    let cardDataContainer = document.createElement('div')
-    let cardTitle = document.createElement('h5')
-    cardTitle.textContent = card.name
-    cardDataContainer.append(cardTitle)
-    let cardImage = document.createElement('img')
-    cardImage.src = card.card_images[0].image_url_small
-    cardDataContainer.append(cardImage)
-    cardList.append(cardDataContainer)
-    //Doesn't help--
-    // let allImg = document.querySelectorAll('img')
-    // allImg.forEach(element => {
-    //   console.log(element)
+// const url = 'https://db.ygoprodeck.com/api/v7/cardinfo.php'
+// const searchBar = document.querySelector('form')
+// searchBar.addEventListener('submit', getData)
+// async function getData(e) {
+//   e.preventDefault()
+//   const userInput = document.querySelector('#blank').value
+//   try {
+//     const response = await axios.get(`${url}?&fname=${userInput}`)
+//     let data = response.data.data
+//     // console.log(data)
+//     appendData(data)
+//   } catch (error) {
+//     console.log(`Error: ${error}`)
+//   }
+// }
+// function appendData(data) {
+//   removeCards()
+//   data.forEach(card => {
+//     let cardList = document.querySelector('.card-list')
+//     let cardDataContainer = document.createElement('div')
+//     let cardTitle = document.createElement('h5')
+//     cardTitle.textContent = card.name
+//     cardDataContainer.append(cardTitle)
+//     let cardImage = document.createElement('img')
+//     cardImage.src = card.card_images[0].image_url_small
+//     cardDataContainer.append(cardImage)
+//     cardList.append(cardDataContainer)
+//     //Doesn't help--
+//     // let allImg = document.querySelectorAll('img')
+//     // allImg.forEach(element => {
+//     //   console.log(element)
 
-    cardImage.addEventListener('click', () => {
-      //Doesn't help--
-      // console.log(card.card_images)
-      // let eachImage = card.card_images
-      // console.log('image',card.card_images[0].image_url)
-      if (cardImage.src != card.card_images[0].image_url) {
-        cardImage.src = card.card_images[0].image_url
-      } else {
-        cardImage.src = card.card_images[0].image_url_small
-      }
-    })
-    // })
+//     cardImage.addEventListener('click', () => {
+//       //Doesn't help--
+//       // console.log(card.card_images)
+//       // let eachImage = card.card_images
+//       // console.log('image',card.card_images[0].image_url)
+//       if (cardImage.src != card.card_images[0].image_url) {
+//         cardImage.src = card.card_images[0].image_url
+//       } else {
+//         cardImage.src = card.card_images[0].image_url_small
+//       }
+//     })
+//     // })
 
 
-  });
-}
-function bigImage(card) {
-  // let imgList = document.querySelectorAll('img')
-  // console.log("line 42", card)
-  // card.src = card.card_images[0].image_url
-}
-function removeCards() {
-  const oldCard = document.querySelector('.card-list')
-  while (oldCard.lastChild) {
-    oldCard.removeChild(oldCard.lastChild)
-  }
-}
-// cards.forEach(card => {
-//   name.textContent = `${card.name}`
-//   image.src = `${card.card_images[0].image_url_small}`
-// });
+//   });
+// }
+// function bigImage(card) {
+//   // let imgList = document.querySelectorAll('img')
+//   // console.log("line 42", card)
+//   // card.src = card.card_images[0].image_url
+// }
+// function removeCards() {
+//   const oldCard = document.querySelector('.card-list')
+//   while (oldCard.lastChild) {
+//     oldCard.removeChild(oldCard.lastChild)
+//   }
+// }
+// // cards.forEach(card => {
+// //   name.textContent = `${card.name}`
+// //   image.src = `${card.card_images[0].image_url_small}`
+// // });
 
 
 
