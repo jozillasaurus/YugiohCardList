@@ -5,6 +5,8 @@
 
 Yugioh Card List
 
+[file:///Users/jozillasaurus/general_assembly/unit_1/week_3/Project_1/YugiohCardList/index.html?]
+
 ## Project Description
 
 Webpage that lets you go through all Yugioh cards and view their description, on click to expand feature, for when you don't want people touching your cards while playing.
