@@ -1,3 +1,9 @@
+#title-image {
+  display: flex;
+  justify-content: center;
+}
+
+
 h2 {
   text-align: center;
   color: #fff;
@@ -60,4 +66,6 @@ justify-content: center;
   display: flex;
   align-items: flex-end;
  }
+
+
 
