@@ -5,7 +5,7 @@
 
 Yugioh Card List
 
-[file:///Users/jozillasaurus/general_assembly/unit_1/week_3/Project_1/YugiohCardList/index.html?]
+[https://jozillasaurus.github.io/YugiohCardList/]
 
 ## Project Description
 
